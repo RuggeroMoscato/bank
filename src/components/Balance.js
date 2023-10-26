@@ -13,8 +13,7 @@ export function MoneyFormatter(num) {
             .reduce(function (acc, num, i, orig) {
                 return num === "-" ? acc : num + (i && !(i % 3) ? "," : '') + acc;
             }, '') +
-        "," +
-        p[1]
+        "," +  p[1]
     );
 
 }

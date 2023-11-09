@@ -14,6 +14,7 @@ export function MoneyFormatter(num) {
     "." +
     p[1]
   );
+
 }
 export const Balance = () => {
   const { transactions } = useContext(GlobalContext);
